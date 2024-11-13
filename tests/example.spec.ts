@@ -18,7 +18,7 @@ test('Check button enadled', async ({page}) => {
     await expect(page.getByTestId("submit-order")).toBeEnabled()
 });
 
-test('Check button enadled', async ({page}) => {
+test('Check e2n test', async ({page}) => {
     const userNameField = await page.getByTestId("username")
     const userEmailField = await page.getByTestId("email")
     const popUp = await page.locator("css=#popup-message")
